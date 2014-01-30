@@ -14,13 +14,13 @@
 		5034360E1899ACF400A8DD90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5034360D1899ACF400A8DD90 /* main.m */; };
 		503436121899ACF400A8DD90 /* FilterTableExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 503436111899ACF400A8DD90 /* FilterTableExampleAppDelegate.m */; };
 		503436151899ACF400A8DD90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503436131899ACF400A8DD90 /* Main.storyboard */; };
-		503436181899ACF400A8DD90 /* FilterTableExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503436171899ACF400A8DD90 /* FilterTableExampleViewController.m */; };
 		5034361A1899ACF400A8DD90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503436191899ACF400A8DD90 /* Images.xcassets */; };
 		503436211899ACF400A8DD90 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503436201899ACF400A8DD90 /* XCTest.framework */; };
 		503436221899ACF400A8DD90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503436011899ACF400A8DD90 /* Foundation.framework */; };
 		503436231899ACF400A8DD90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503436051899ACF400A8DD90 /* UIKit.framework */; };
 		5034362B1899ACF400A8DD90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 503436291899ACF400A8DD90 /* InfoPlist.strings */; };
 		5034362D1899ACF400A8DD90 /* FilterTableExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5034362C1899ACF400A8DD90 /* FilterTableExampleTests.m */; };
+		503436381899AD7400A8DD90 /* ExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503436371899AD7400A8DD90 /* ExampleTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		503436101899ACF400A8DD90 /* FilterTableExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterTableExampleAppDelegate.h; sourceTree = "<group>"; };
 		503436111899ACF400A8DD90 /* FilterTableExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterTableExampleAppDelegate.m; sourceTree = "<group>"; };
 		503436141899ACF400A8DD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		503436161899ACF400A8DD90 /* FilterTableExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterTableExampleViewController.h; sourceTree = "<group>"; };
-		503436171899ACF400A8DD90 /* FilterTableExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterTableExampleViewController.m; sourceTree = "<group>"; };
 		503436191899ACF400A8DD90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5034361F1899ACF400A8DD90 /* FilterTableExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilterTableExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		503436201899ACF400A8DD90 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		503436281899ACF400A8DD90 /* FilterTableExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FilterTableExampleTests-Info.plist"; sourceTree = "<group>"; };
 		5034362A1899ACF400A8DD90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5034362C1899ACF400A8DD90 /* FilterTableExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterTableExampleTests.m; sourceTree = "<group>"; };
+		503436361899AD7400A8DD90 /* ExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleTableViewController.h; sourceTree = "<group>"; };
+		503436371899AD7400A8DD90 /* ExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,9 @@
 		503436071899ACF400A8DD90 /* FilterTableExample */ = {
 			isa = PBXGroup;
 			children = (
-				503436101899ACF400A8DD90 /* FilterTableExampleAppDelegate.h */,
-				503436111899ACF400A8DD90 /* FilterTableExampleAppDelegate.m */,
 				503436131899ACF400A8DD90 /* Main.storyboard */,
-				503436161899ACF400A8DD90 /* FilterTableExampleViewController.h */,
-				503436171899ACF400A8DD90 /* FilterTableExampleViewController.m */,
+				503436361899AD7400A8DD90 /* ExampleTableViewController.h */,
+				503436371899AD7400A8DD90 /* ExampleTableViewController.m */,
 				503436191899ACF400A8DD90 /* Images.xcassets */,
 				503436081899ACF400A8DD90 /* Supporting Files */,
 			);
@@ -126,6 +124,8 @@
 		503436081899ACF400A8DD90 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				503436101899ACF400A8DD90 /* FilterTableExampleAppDelegate.h */,
+				503436111899ACF400A8DD90 /* FilterTableExampleAppDelegate.m */,
 				503436091899ACF400A8DD90 /* FilterTableExample-Info.plist */,
 				5034360A1899ACF400A8DD90 /* InfoPlist.strings */,
 				5034360D1899ACF400A8DD90 /* main.m */,
@@ -249,9 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				503436381899AD7400A8DD90 /* ExampleTableViewController.m in Sources */,
 				503436121899ACF400A8DD90 /* FilterTableExampleAppDelegate.m in Sources */,
 				5034360E1899ACF400A8DD90 /* main.m in Sources */,
-				503436181899ACF400A8DD90 /* FilterTableExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
