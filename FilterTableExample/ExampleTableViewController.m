@@ -114,7 +114,7 @@
 }
 
 // calls the filterrecipes method as the user is typing
-- (BOOL)searchBar:(UISearchBar *)searchBar shouldChangeTextInRange:(NSRange)range     replacementText:(NSString *)text
+- (BOOL)searchBar:(UISearchBar *)searchBar shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
     // grab the query
     NSString* query = [[searchBar.text stringByReplacingCharactersInRange:range withString:text] lowercaseString];
